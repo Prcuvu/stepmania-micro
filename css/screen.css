@@ -1,0 +1,146 @@
+body {
+    font-family: Verdana;
+    font-size: 10pt;
+    margin: 0;
+}
+#sm-micro {
+    width: 640px;
+    height: 480px;
+	position: absolute;
+	left: 50%;
+	margin-left: -320px;
+	top: 20px;
+	background-position:center; 
+	overflow: hidden;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+#sm-micro #musicselector	{
+	width: 640px;
+	height: 480px;
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 50%;
+	top: 0px;
+	margin-left: -320px;
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#sm-micro #musicselector	 #musiclist{
+	position: absolute;
+	width: 280px;
+	height: 440px;
+	top: 10px;
+	left: 10px;
+	padding: 5px 5px 5px 5px;
+	background-color: rgba(255,255,255,0.7);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#sm-micro #musicselector	 #musiclogo{
+	position: absolute;
+	width: 250px;
+	height: 90px;
+	top: 30px;
+	right: 40px;
+	padding: 10px 10px 10px 10px;
+	background-color: rgba(255,255,255,0.7);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#sm-micro #musicselector	 #musicprops{
+	position: absolute;
+	width: 250px;
+	height: 290px;
+	top: 150px;
+	right: 40px;
+	padding: 10px 10px 10px 10px;
+	background-color: rgba(255,255,255,0.7);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#playbtn	{
+	width: 230px;
+	height: 40px;
+}
+
+#sm-micro #bottom {
+	position: relative;
+}
+#sm-micro #alert {
+	background-color: red;
+	padding: 5px;
+	position: absolute;
+	top: 36px;
+	left: 10px;
+	width: 290px;
+	height: 30px;
+	overflow: none;
+	display: none;
+}
+#sm-micro #alert-message {
+	color: white;
+	font-family: Verdana;
+	font-size: 80%;
+	text-decoration: none;
+}
+#sm-micro #alert-message:hover {
+	text-decoration: underline;
+}
+#sm-micro #logo {
+	background: transparent url(../img/logo.png) 0 0 no-repeat;
+	display:block;
+	position: absolute;
+	left: 10px;
+	width: 155px;
+	height: 30px;
+}
+
+
+#sm-micro #score {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	min-width:110px;
+	background: rgba(255,255,255,0.8);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#sm-micro #scoredata {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+	width: 160px;
+	height: 20px;
+	padding: 10px 10px 10px 10px;
+	background: rgba(255,255,255,0.8);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#sm-micro #debugtable	{
+	position: absolute;
+	left: 20px;
+	top: 20px;
+	min-width:110px;
+	background: rgba(255,255,255,0.8);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#sm-micro #percent-score {
+	font-weight: bold;
+	font-size: 120%;
+	text-align:right;
+}
